@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+16. policy-area
+--------------------------------------------------------------*/
+
+.policy-area {
+    .policy-wrap {
+        max-width: 768px;
+        margin: 0 auto;
+
+        .policy-item {
+            margin-bottom: 50px;
+
+            p {
+                margin-bottom: 40px;
+            }
+
+            ul {
+                list-style: outside;
+
+                li {
+                    margin-bottom: 30px;
+                }
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 27px;
+                margin-bottom: 30px;
+            }
+
+            &.inner {
+                ul {
+                    padding-left: 40px;
+                }
+            }
+
+            &.number {
+                ul {
+                    list-style: auto;
+                }
+            }
+        }
+    }
+}
